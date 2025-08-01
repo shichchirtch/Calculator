@@ -105,7 +105,7 @@ function Calculator() {
 
 
   function plusInk() {
-    setInput((prev) =>  prev + 1);
+    setInput((prev) =>  parseInt(prev) + 1);
   }
 
   function minusDecr() {
